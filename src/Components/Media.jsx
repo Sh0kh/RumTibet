@@ -5,7 +5,7 @@ import media_foto2 from '../img/media (2).png'
 import media_foto3 from '../img/media (3).png'
 import media_foto4 from '../img/media (4).png'
 import media_foto5 from '../img/media (5).png'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation,  A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

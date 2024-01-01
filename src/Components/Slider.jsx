@@ -9,7 +9,7 @@ import person6 from '../img/person2 (5).png'
 import person7 from '../img/person2 (6).png'
 import person8 from '../img/person2 (7).png'
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
