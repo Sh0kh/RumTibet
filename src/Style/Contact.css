@@ -17,6 +17,7 @@
     font-weight: 400;
     line-height: 25.2px; /* 140% */
     margin-bottom: 19px;
+    margin-top: 300px;
 }
 .contact__content span{
     color: #ABAABB;
@@ -66,7 +67,6 @@
 }
 .contact__wrapper{
     display: flex;
-    align-items:end;
     justify-content: space-between;
 }
 .con__bg1{

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style/Cantact.css'
+import '../Style/Contact.css'
 import conntact_bg1 from '../img/prise2.png'
 import conntact_bg2 from '../img/prise3.png'
 function Contact() {
