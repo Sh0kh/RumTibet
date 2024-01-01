@@ -1,0 +1,50 @@
+.freq{
+    margin-top: 225px;
+    position: relative;
+}
+.freq h1{
+    color: #1A1930;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px; /* 110% */
+    width: 606px;
+    margin-bottom: 161px;
+ }
+ .freq ul li {
+    color: #2D2B5C;
+    width: 598px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 49.5px; /* 112.5% */
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 81px;
+ }
+ .freq ul li img{
+    cursor: pointer;
+ }
+.freq__foto1{
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+@media(max-width:630px){
+    .freq h1{
+        width: auto;
+    }
+    .freq ul li{
+        width: auto;
+    }
+}
+@media(max-width:375px){
+    .freq h1{
+        font-size: 50px;
+    }
+    .freq ul li{
+        width: auto;
+    }
+}

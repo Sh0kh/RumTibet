@@ -1,0 +1,53 @@
+.number{
+    position: relative;
+}
+.number__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 219px;
+    position: relative;
+}
+.number__title span{
+    color: #2D2B5C;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px; /* 148.235% */
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.number__title h1{
+    color: #2D2B5C;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px; /* 110% */
+}
+.number__bg{
+    background-image: url('https://uploads-ssl.webflow.com/6384aa132a10246069befc63/6384aa132a1024ec0ebefc9a_in-numbers-bg-p-800.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 688px;
+    height: 843px;
+    position: absolute;
+    z-index: -1;
+    left: -200px;
+    top: -206px;
+}
+@media(max-width:930px){
+    .number__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media(max-width:490px){
+    .number__bg{
+        width: 600px;
+    }
+}
+@media(max-width:400px){
+    .number__bg{
+        width: 550px;
+    }
+}

@@ -1,0 +1,33 @@
+.SliderCard{
+    width: 220px;
+}
+.SliderCard img{
+    margin-bottom: 16px;
+    text-align: center;
+    display: block;
+}
+.SliderCard h2{
+    margin-bottom: 12px;
+    color: #1A1930;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 110% */
+}
+.SliderCard p{
+    color: #2D2B5C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px; /* 140% */
+}
+@media(max-width:780px){
+    .person1{
+        width: 120px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }    
+}
