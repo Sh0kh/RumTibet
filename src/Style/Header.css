@@ -37,11 +37,64 @@ header{
     flex-shrink: 0;
     cursor: pointer;
 }
+.madal__btn{
+    color:white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; /* 140% */
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, 0.30);
+    width: 139px;
+    height: 60px;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 .hamburger{
     display: none;
+    background-color:white;
+}
+#my-element-id2{
+    position: fixed;
+    z-index: 190;
+    top: 45px;
+    right: 30px;
 }
 .header__btn{
     display: none;
+}
+.modal__medu{
+    display: none;
+    transition: 10s;
+    
+}
+#my-element-id{
+    transition: 10s;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: -500px;
+    background-color: black;
+    z-index: 100;
+    display: block;
+}
+.madal__list li a{
+    color: white    ;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+
+
+}
+.madal__list{
+    position: relative;
 }
 
 @media(max-width:915px){
