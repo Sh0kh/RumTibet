@@ -10,7 +10,7 @@ function Hero() {
             <div className='container'>
                 <div className='hero__conten'>
                 <div className='hero__bg'> </div>
-                    <h1>
+                    <h1 >
                     Accessible way to start your business
                     </h1>
                     <h3>

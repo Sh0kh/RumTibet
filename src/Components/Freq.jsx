@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/Freq.css'
-import freq1 from '../img/freq.png'
+
 import freq2 from '../img/freq2.svg'
 function Freq() {
   return (
@@ -10,7 +10,7 @@ function Freq() {
                 <h1>
                 Frequently asked questions
                 </h1>
-                <img className='freq__foto1' src={freq1} alt="foto" />
+                <img className='freq__foto1' src={'	https://uploads-ssl.webflow.com/6384aa132a10246069befc63/6384aa132a102422a8befca5_faq-bg.png'} alt="foto" />
             </div>
             <ul>
                 <li>

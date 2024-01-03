@@ -9,7 +9,7 @@ function Need() {
                 No need to know any technologies
             </h1>
             <div className='need__wrapper'>
-                <div className='need__img'>
+                <div  className='need__img'>
                     <img src={need__img} alt="img" />
                 </div>
                 <div className='need__content'>

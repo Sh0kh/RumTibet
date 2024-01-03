@@ -13,7 +13,7 @@ import Number from './Components/Number';
 import Press from './Components/Press';
 import Prise from './Components/Prise';
 import Reus from './Components/Reus';
-import Slider from './Components/Slider';
+import Slider from './Components/Slider1';
 import SwipeLogo from './Components/SwipeLogo';
 import Video from './Components/Video';
 

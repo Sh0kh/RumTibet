@@ -3,7 +3,7 @@ import '../Style/Press.css'
 import PressCard from './PressCard'
 import press1 from '../img/press1.png'
 import press2 from '../img/press2.png'
-import press3 from '../img/press3.png'
+import press3 from '../img/press34.png'
 function Press() {
   return (
     <section className='press'>

@@ -7,7 +7,7 @@ function Number() {
 
         <div className='container'>
             <div className='number__wrapper'>
-            <div className='number__bg'></div>
+            <div   className='number__bg'></div>
                  <div className='number__title'>
                     <span>since 2019</span>
                     <h1>

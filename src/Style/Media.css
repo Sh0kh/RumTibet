@@ -1,5 +1,6 @@
 .media{
     margin-top: 140px;
+    /* background-color: black; */
 }
 .media h1{
     color: #1A1930;
@@ -30,11 +31,30 @@
 }
 .media img{
     cursor: pointer;
+    width: 200px;
 }
 .media__wrapper{
+    margin: 0 auto;
     margin-top: 81px;
+    width: 1100px;  
 }
-@media(max-width:840px){
+.media__wrapper button{
+    background-color: black;
+    display: block;
+    z-index: 5050;
+    color: black;
+    border-radius: 50%;
+}
+.media__wrapper button:hover{
+    background-color: black;
+}
+.media__wrapper button:active{
+    background-color: black;
+}
+.slick-next{
+    background-color: blue;
+}
+@media(max-width:940px){
     .media__title__wrapper{
         flex-direction: column;
         gap: 30px;
@@ -47,5 +67,45 @@
    
     .media img{
         width: 100px;
+    }
+}
+@media(max-width:1111px){
+    .media__wrapper{
+        width: 1000px;
+    }
+}
+@media(max-width:1001px){
+    .media__wrapper{
+        width: 900px;
+    }
+}
+@media(max-width:901px){
+    .media__wrapper{
+        width: 800px;
+    }
+}
+@media(max-width:801px){
+    .media__wrapper{
+        width: 700px;
+    }
+}
+@media(max-width:701px){
+    .media__wrapper{
+        width: 600px;
+    }
+}
+@media(max-width:601px){
+    .media__wrapper{
+        width: 500px;
+    }
+}
+@media(max-width:501px){
+    .media__wrapper{
+        width: 400px;
+    }
+}
+@media(max-width:401px){
+    .media__wrapper{
+        width: 300px;
     }
 }
